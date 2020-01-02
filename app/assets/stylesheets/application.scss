@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+ @import 'font-awesome-sprockets';
+ @import "font-awesome";
+ @import "reset";
+ @import "mixins/vendor_prefix";
+ @import "modules/side_bar";
+ @import "modules/chat";
+ @import "messages/messages.scss"
