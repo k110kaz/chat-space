@@ -1,3 +1,13 @@
 .wrapper
-  = render 'shared/side_bar'
-  = render 'main_bar'
+
+  = render 'side_bar'
+
+  .chat
+    .form
+      %form
+        %input.form__message
+        .form__mask
+          %label.form__mask__image
+            = icon('fa','image',class: 'icon')
+            %input.hidden{type: 'file'}
+        %input.form__submit{type: 'submit', value: 'Send'}
