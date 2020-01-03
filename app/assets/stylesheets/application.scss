@@ -13,14 +13,15 @@
  *= require_tree .
  *= require_self
  */
- @import "modules/flash";
+ 
  @import 'font-awesome-sprockets';
  @import "font-awesome";
  @import "reset";
- @import "modules/flash";
- @import "mixins/vendor_prefix";
- @import "modules/side_bar";
+ @import "mixins/vendor_prefix"; 
  @import "modules/chat";
+ @import "modules/flash";
+ @import "modules/side_bar";
  @import "modules/user";
+ @import "modules/group";
  @import "messages/messages.scss"
  
