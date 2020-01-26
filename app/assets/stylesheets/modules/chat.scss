@@ -38,13 +38,14 @@
   .messages {
     background-color: #FAFAFA;
     box-sizing: border-box;
-    padding: 46px 40px 0;
+    padding: 46px 0px 0;
     height: calc(100vh - 100px - 90px);
     overflow: scroll;
     .message {
       .upper-message {
         display: flex;
         &__user-name {
+          padding-left: 40px;
           color: #434a54;
           font-size: 16px;
           font-weight: bold;
@@ -56,6 +57,7 @@
         }
       }
       .lower-message {
+        padding-left: 40px;
         margin-top: 10px;
         &__content {
           color: #434a54;
@@ -75,7 +77,6 @@
     height: 90px;
     padding: 20px 50px 20px 40px;
     &__message {
-      width: auto;
       border: none;
       float: left;
       height: 50px;
